@@ -129,7 +129,7 @@ process.on("SIGTERM", () => {
 const PORT = Number(process.env.PORT) || 3000;
 httpServer.listen(PORT, () => {
   const ip = getLocalIp();
-  console.log(`Listening on port http://localhost:${PORT} ...`);
+  console.log(`333Listening on port http://localhost:${PORT} ...`);
   ip.forEach(item => {
     console.log(`Listening on port http://${item}:${PORT} ...`);
   });
